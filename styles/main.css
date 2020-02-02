@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+      font-family: "Open Sans", Helvetica, sans-serif;
+      font-size: 13pt;
+      font-weight: 400;
+      line-height: 1.65em;
+  }
+
+nav {
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    font-size: 20px;
+    overflow:hidden;
+  }
+  
+  nav a:hover {
+    border: 1px solid #B17B1A;
+    padding: 6px 0; 
+    color: #B17B1A !important;
+  }
+
+  nav img{
+    height: 100px;
+  }
+
+  /* Carousel base class */
+/*
+  .carousel {
+
+}
+
+*/
+
+.carousel-indicators {
+	position: absolute;
+	top: 2em;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 45rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 20rem;
+}
+
+
+/* using a container causes multiple alerts to stack. */
+.alerts-container {
+	position: fixed;
+	top: 1em;
+	right: 2em;
+	z-index: 9999;
+}
+
+
+.intro-content{
+  padding-top: 100px;
+}
+
+
+.title-header{
+  color:#212529;
+  font-weight: bolder;
+  display:inline-block;
+  margin-bottom: 40px;
+  padding:0px;
+  border-bottom:4px #B17B1A solid;
+  margin-top:30px;
+}
+
+.featured-services{
+  background: #f8f8f8;
+ 
+}
+
+.servicesbtn{
+color: #B17B1A;
+font-weight: bolder;
+margin-bottom: 100px;
+}
+
+.servicesbtn:hover {
+  border: 2px solid #B17B1A;
+}
+
+.allservices{
+  text-align: center;
+}
+
+
+.companyinfo{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contactus p{
+  text-align: left !important;
+}
