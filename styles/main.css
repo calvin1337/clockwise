@@ -84,6 +84,15 @@ nav {
   margin-top:30px;
 }
 
+.featured-header{
+  color:#212529;
+  font-weight: bolder;
+  padding:0px;
+  font-size:18px;
+  border-bottom:1px #B17B1A solid;
+  
+}
+
 .featured-services{
   background: #f8f8f8;
  
