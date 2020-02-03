@@ -42,3 +42,22 @@ padding-bottom: 70px;
     padding-top:100px;
     background: #f8f8f8;
 }
+
+.about-links{
+    padding-top: 150px;
+
+}
+
+.about-links img{
+    width:100%;
+    padding-bottom: 10px;
+}
+
+
+.about-links h3{
+    padding-top: 20px;
+}
+
+.about-links .btn {
+    margin-top :30px;
+}
