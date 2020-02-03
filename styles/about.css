@@ -11,8 +11,29 @@
     color: #212529 !important;
 }
 
-.maincontent{
+
+#maincontent{
 background-color:#f8f8f8;
-text-align: center;
+text-align: right;
+padding-bottom: 70px;
 }
 
+#maincontent h1 {
+    margin-top:150px !important;
+}
+
+.map-info{
+    margin-top:100px;
+    font-size:24px;
+}
+
+
+.mapouter{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.about-location{
+    margin-top:150px;
+    margin-bottom:150px;
+}
