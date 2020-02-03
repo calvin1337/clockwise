@@ -3,11 +3,13 @@
     text-align: center;
     font-size:30px;
     padding-bottom: 30px;
-    
+    background: #f8f8f8;
 }
 
 .services-header p {
     padding-top :10px;
+    background: #f8f8f8;
+
 }
 
 h4{
@@ -22,11 +24,15 @@ h4{
     margin-top: 30px;
 }
 
+body{
+    background: #f8f8f8;
+
+}
 
 
 .border-white{
     border:solid 15px white !important;
-    background: #f8f8f8 !important;
+    background: white !important;
 }
 
 .img-fluid{
@@ -35,4 +41,6 @@ h4{
 
 .intro-text{
     width:50%;
+    background:#f8f8f8;
+    
 }
