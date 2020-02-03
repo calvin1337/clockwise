@@ -1,0 +1,34 @@
+.services-header{
+    padding-top: 50px;
+    text-align: center;
+    font-size:30px;
+    padding-bottom: 30px;
+    
+}
+
+.services-header p {
+    padding-top :10px;
+}
+
+h4{
+    text-align: left;
+    border-bottom: #B17B1A 2px solid;
+    font-size:20px;
+
+}
+
+.btn{
+    text-align: right !important;
+    margin-top: 30px;
+}
+
+
+
+.border-white{
+    border:solid 15px white !important;
+    background: #f8f8f8 !important;
+}
+
+.img-fluid{
+    padding-top:50px;
+}
