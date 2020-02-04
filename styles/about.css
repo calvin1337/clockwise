@@ -15,7 +15,7 @@
 #maincontent{
 background-color:#f8f8f8;
 text-align: right;
-padding-bottom: 70px;
+padding-bottom: 50px;
 }
 
 #maincontent h1 {
@@ -60,4 +60,9 @@ padding-bottom: 70px;
 
 .about-links .btn {
     margin-top :30px;
+}
+
+.services-link{
+    padding-bottom: 50px;
+    
 }

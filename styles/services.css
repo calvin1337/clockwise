@@ -19,7 +19,7 @@ h4{
 
 }
 
-.btn{
+.services-header .btn{
     text-align: right !important;
     margin-top: 30px;
 }
@@ -43,4 +43,9 @@ body{
     width:50%;
     background:#f8f8f8;
     
+}
+
+.vacancies-link{
+    padding-bottom: 50px;
+    padding-top:50px
 }

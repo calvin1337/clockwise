@@ -19,3 +19,8 @@ body{
 .intro-text{
     width:50%;
 }
+
+.vacancies-link{
+    padding-bottom: 50px;
+    padding-top:50px
+}
