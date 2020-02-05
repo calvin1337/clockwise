@@ -1,0 +1,41 @@
+.cstm-height-card .card-img-top {
+    height: 100px;
+    object-fit: cover;
+  }
+
+
+  .news-content img{
+      height:300px;
+  }
+
+
+  .news-header{
+        background: #f8f8f8;
+  }
+
+  .news-header hr{
+      margin:0px !important;
+  }
+
+  .news-content {
+      background: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  
+
+  .gallery-link{
+    padding-bottom: 50px;
+    padding-top:50px;
+    background: #f8f8f8;
+}
+
+
+main hr{
+    margin: 0px !important;
+}
+
+.card{
+    background: #f8f8f8
+}
