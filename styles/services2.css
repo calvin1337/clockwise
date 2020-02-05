@@ -1,0 +1,11 @@
+.col-md-6{
+    padding-bottom: 50px;
+    padding-top:50px
+}
+
+h5{
+    color: #212529 !important; 
+    border-bottom: 1px solid #B17B1A !important;
+    display: inline-block !important;
+    font-size:24px !important;
+}
