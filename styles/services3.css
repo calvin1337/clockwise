@@ -8,7 +8,10 @@
 
 
 
-
+h1{
+  text-align: center;
+  padding-top:40px;
+}
   
 
   .image-links{
@@ -24,6 +27,8 @@
     padding:0px !important;
     height:100% !important;
     width:100% !important;
+    padding:1px;
+    border:1px solid #021a40;
   }
 
 
@@ -35,7 +40,6 @@
 {
   position: relative;
   display: inline-block;
-
   width: 100%;
   height: 100%;
   transition: all 0.2s linear;
@@ -43,6 +47,8 @@
 
 .image-hover-image 
 {
+  height: 100%;
+  width: 100%;
  display: block;
 }
 
