@@ -1,0 +1,90 @@
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.image-container .container {
+  position: relative;
+  padding: 0px !important;
+}
+
+
+
+
+  
+
+  .image-links{
+      padding-top:100px;
+      padding-bottom: 100px;
+  }
+
+  .services-image{
+    padding:5px !important;
+
+  }
+  .services-image img{
+    padding:0px !important;
+    height:100% !important;
+    width:100% !important;
+  }
+
+
+  body 
+{
+  font-family: sans-serif;
+}
+.image-hover-text-container 
+{
+  position: relative;
+  display: inline-block;
+
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s linear;
+}
+
+.image-hover-image 
+{
+ display: block;
+}
+
+
+
+
+.image-hover-text 
+{
+  position: absolute;
+  top: 0;
+  width: 100%;  
+  height: 100%;
+  margin: 0 auto;
+  opacity: 0;
+  cursor: default;
+  transition: opacity 0.2s linear;
+}
+.image-hover-text:hover 
+{
+  opacity: 1;
+}
+
+
+.image-hover-text-bubble 
+{
+  position: relative;
+  box-sizing: border-box;
+  top: 0; left: 0; right: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(218, 211, 211, 0.9);
+  border: 1px solid #848484;
+  margin: 0 auto;
+  padding: 25% 8px 5px 8px;
+  overflow: hidden;
+  font-size: 17px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.image-hover-text .image-hover-text-title
+{
+  font-size: 25px;
+  display: block;
+}
