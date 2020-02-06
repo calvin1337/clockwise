@@ -1,0 +1,16 @@
+.gallery-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f8f8f8;
+    text-align: center !important;
+}
+
+.gallery-header h1{
+    text-align: center !important;
+}
+
+
+.gallery-content{
+    padding-top:50px;
+    padding-bottom: 100px;
+}
