@@ -1,0 +1,74 @@
+.text-content{
+    background:#f8f8f8;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.text-content .row {
+    margin:0px !important;
+
+}
+.text-content p {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.whitebk{
+    background:white;
+}
+
+.text-content hr{
+    padding:0px !important;
+    margin: 0px !important;
+}
+
+
+.text-content h5{
+    color:#373e41;
+    font-weight: bolder;
+    text-align: left;
+    border-bottom: 1px solid #B17B1A;
+    font-size:30px !important;
+    display: inline-block;
+}
+
+
+
+.text-content .col-md-8{
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+.text-content ul{
+    padding:10px !important;
+    margin:10px !important;
+}
+
+
+.text-content h6 {
+    font-weight: bold;
+    text-align: left;
+    font-size:20px !important;
+    border-bottom: 1px solid #373e41;
+    padding-top:20px;
+    display: inline-block;
+}
+
+body{
+    color:#444;
+}
+
+.owl-background{
+    background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
+    background-repeat: no-repeat, repeat;
+}
+
+.text-content h6{
+    color:#373e41;
+    font-weight: bold;
+    text-align: left;
+    font-size:20px !important;
+    border-bottom: 1px solid #373e41;
+    padding-top:20px;
+    display: inline-block;
+}
