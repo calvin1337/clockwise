@@ -1,0 +1,34 @@
+.privacy-policy{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background: #f8f8f8;
+}
+
+.privacy-policy p {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.whitebk{
+    background:white;
+}
+
+.privacy-policy hr{
+    padding:0px !important;
+    margin: 0px !important;
+}
+
+
+.privacy-policy h5{
+    color:#373e41;
+    font-weight: bolder;
+    text-align: left;
+    border-bottom: 1px solid #B17B1A
+}
+
+
+
+.privacy-policy .col-md-8{
+    padding-top: 30px;
+    padding-bottom:30px;
+}
