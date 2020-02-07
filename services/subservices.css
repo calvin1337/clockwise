@@ -46,3 +46,14 @@
 body{
     color:#444;
 }
+
+
+#services-content h6{
+    color:#373e41;
+    font-weight: bolder;
+    text-align: left;
+    font-size:20px !important;
+    border-bottom: 1px solid #B17B1A;
+    padding-top:20px;
+    display: inline-block;
+}
