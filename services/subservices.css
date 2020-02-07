@@ -1,8 +1,13 @@
-.privacy-policy{
+#services-content{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+#services-content{
     background: #f8f8f8;
 }
 
-.privacy-policy p {
+#services-content p {
     padding-top: 20px; 
     padding-bottom: 20px;
 }
@@ -11,30 +16,32 @@
     background:white;
 }
 
-.privacy-policy hr{
+#services-content hr{
     padding:0px !important;
     margin: 0px !important;
 }
 
-
-.privacy-policy h5{
+#services-content h5{
     color:#373e41;
     font-weight: bolder;
     text-align: left;
+    font-size:30px !important;
     border-bottom: 1px solid #B17B1A
 }
 
 
 
-.privacy-policy .col-md-8{
-    padding-top: 30px;
-    padding-bottom:30px;
+#services-content.col-md-8{
+    padding-top: 40px;
+    padding-bottom:40px;
 }
 
-.privacy-policy ul{
+#services-content ul{
     padding:10px !important;
     margin:10px !important;
 }
+
+
 
 body{
     color:#444;
