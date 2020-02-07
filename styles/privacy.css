@@ -1,6 +1,4 @@
 .privacy-policy{
-    padding-top:50px;
-    padding-bottom: 50px;
     background: #f8f8f8;
 }
 
@@ -31,4 +29,9 @@
 .privacy-policy .col-md-8{
     padding-top: 30px;
     padding-bottom:30px;
+}
+
+.privacy-policy ul{
+    padding:10px !important;
+    margin:10px !important;
 }
