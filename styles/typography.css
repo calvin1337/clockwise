@@ -1,5 +1,5 @@
 .text-content{
-    background:#f8f8f8;
+    background:white;
     padding-top:50px;
     padding-bottom: 50px;
 }
@@ -61,6 +61,9 @@ body{
 .owl-background{
     background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
     background-repeat: no-repeat, repeat;
+    background-size: auto;
+    background-position: center; 
+    background-size: cover;
 }
 
 .text-content h6{
