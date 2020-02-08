@@ -75,3 +75,14 @@ body{
     padding-top:20px;
     display: inline-block;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    
+    .logoimage{
+    display:none;
+     }
+  }
+
+  
