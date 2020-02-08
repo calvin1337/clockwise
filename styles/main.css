@@ -13,8 +13,8 @@
   .navbar{
     z-index:9; 
    }
-   #fullCarousel{
-     position:absolute;
+   
+   #myCarousel{
      width:100%;
      top:0;
    }
@@ -44,6 +44,29 @@ nav {
     height: 100px;
   }
 
+  .navbar-wrapper {
+    position:relative;
+}
+.carousel {
+    top:0;
+}
+.carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: #343a40;
+    opacity: 0.95;
+    width:100%;
+}
+
+.navbar a {
+  color:white;
+}
+
   /* Carousel base class */
 /*
   .carousel {
@@ -61,7 +84,7 @@ nav {
 
 .carousel-indicators {
 	position: absolute;
-  top: 2em;
+  bottom: 2em;
 
 }
 /* Since positioning the image, we need to help out the caption */
@@ -72,7 +95,7 @@ nav {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 30rem;
+  height: 100vh;
   background-color: #212529;
 }
 .carousel-item > img {
@@ -80,7 +103,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 30rem;
+  height: 100vh;
 }
 
 
