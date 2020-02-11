@@ -1,0 +1,715 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+
+  body{
+      font-size: 13pt;
+      font-weight: 400;
+      line-height: 1.65em;
+      height:100%;
+      font-family: 'Roboto Slab', serif;
+      color:#272838;
+  }
+  .navbar{
+    position:fixed;
+    width:100%;
+    color:black;
+    border-radius:0;
+    font-family:'IBM Plex Mono', monospace;
+  }
+  .navbar-default .navbar-nav > li > a{
+    color:#000;
+    
+  }
+
+  .navbar {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    z-index: 1200 !important;
+    background-color:transparent !important;
+    transition: background-color 0.5s ease 0.5s;
+}
+
+  nav img{
+    height: 100px;
+  }
+
+  .navbar a {
+    color:white !important
+  }
+
+
+
+
+  /* hover navbar effects */
+
+  span {
+    padding: 0 1rem;
+    transition: opacity 0.2s;
+  }
+  
+  .sibling-fade:hover span:not(:hover) {
+    opacity: 0.5;
+  }
+
+ 
+
+  
+   .background-carousel-color{
+     width:100%;
+     top:0;
+     right:0;
+     height: 100vh;
+     background-image: url("/images/Homepage/weldinghp.jpg.jpeg");
+   }
+
+   .background-carousel-color .d-block w-100 {
+    width:100%;
+    height:550px;
+    object-fit:cover;
+    object-position:50% 50%;
+   }
+
+
+
+  
+   .background-carousel-color .carousel {
+    top:0;
+}
+.background-carousel-color .carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+
+  /* Carousel base class */
+/*
+  .carousel {
+
+}
+
+*/
+.background-carousel-color .background-carousel-color{
+  background:#212529;
+}
+.background-carousel-color.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  background-size: 100% 100%;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.background-carousel-color .carousel-indicators {
+	position: absolute;
+  bottom: 2em;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.background-carousel-color .carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.background-carousel-color .carousel-item {
+  height: 100vh;
+  background-color: #212529;
+}
+.background-carousel-color .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+.background-carousel-color .carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
+
+.services-carousel {
+  padding-top:70px;
+  padding-bottom:70px;
+  
+  width:100%;
+}
+
+.services-carousel ol{
+  position: relative;
+  padding-top:20px;
+} 
+
+.services-carousel .carousel-control-prev {
+  margin-left: -140px;
+}
+
+ .services-carousel .carousel-control-next {
+  margin-right: -140px;
+}
+
+.services-carousel .carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70,70,70,.25);
+}
+
+.services-carousel .carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+.services-carousel .my-slider .carousel-indicators {
+  top: 10px;
+  justify-content:flex-start;
+  margin:0;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.services-carousel  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.services-carousel  .carousel-indicators li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.services-carousel .carousel {
+  margin: 1.5rem;
+}
+.services-carousel .carousel-inner {
+  height: auto;
+}
+/* using a container causes multiple alerts to stack. */
+.alerts-container {
+	position: fixed;
+	top: 1em;
+	right: 2em;
+	z-index: 9999;
+}
+
+
+.intro-content{
+  padding-top: 100px;
+}
+
+
+.title-header{
+  color:#212529;
+  font-weight: bolder;
+  display:inline-block;
+  margin-bottom: 40px;
+  padding:0px;
+  border-bottom:4px #B17B1A solid;
+  margin-top:30px;
+}
+
+.featured-header{
+  color:#212529;
+  font-weight: bolder;
+  padding:0px;
+  font-size:18px;
+  border-bottom:1px #B17B1A solid;
+  
+}
+
+.featured-services{
+  background:white;
+}
+.whitebk{
+  background:white;
+}
+.servicesbtn{
+color: #B17B1A;
+font-weight: bolder;
+margin-bottom: 50px;
+}
+
+.servicesbtn:hover {
+  border: 2px solid #B17B1A;
+}
+
+.allservices{
+  text-align: center;
+
+}
+
+
+
+
+.companyinfo{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contactus p{
+  text-align: left !important;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  }
+
+
+  .nav-colored { background-color:#212529!important;
+    transition: background-color 0.3s ease 0.3s;
+    ; }
+  .nav-transparent 
+  { 
+    
+    background-color:transparent !important;
+  }
+
+
+  .owl-background{
+    background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
+    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    background-position:bottom center;
+    background-size: 40% ;
+}
+
+
+.lg-heading {
+  font-size:10rem;
+  text-align: center;
+  margin:0;
+  font-weight: 400;
+  color:white;
+  padding-top: 30vh;
+}
+
+.sm-heading{
+  margin-bottom:2rem;
+  padding:0.2rem 1rem;
+  text-align: center;
+  margin:0;
+  font-weight: 400;
+  color:white
+}
+
+#home {
+  overflow: hidden; 
+  height:100vh;
+  text-align: center;
+}
+
+.text-secondary {
+  color: #92A1CF; }
+
+/*    Social Icons    */
+
+.iconsocial{
+  color: white;
+  text-decoration: none; 
+  font-family:FontAwesome;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: none !important;
+}
+
+
+.iconsocial {
+  padding: 0.4rem; 
+}
+
+.iconsocial a:hover {
+  color: #92A1CF;
+  transition: all 0.5s ease-out; 
+}
+
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/Homepage/weldinghp.jpg.jpeg) top center;
+  background-size: cover;
+  position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(33,37,41, 0.75);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-get-started:hover {
+  background: #343a40;
+  border: 2px solid #343a40
+}
+
+
+/* zoom hover effect */ 
+
+.hover-shadow-box-animation {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  margin: 10px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+.hover-shadow-box-animation:hover,
+.hover-shadow-box-animation:focus,
+.hover-shadow-box-animation:active {
+  box-shadow: 1px 10px 10px -10px rgba(0, 0, 24, 0.5);
+  transform: scale(1.2);
+}
+
+
+.zoom-content{
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  margin: 10px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+.zoom-content:hover,
+.zoom-content:focus,
+.zoom-content:active {
+  transform: scale(1.2);
+}
+
+
+
+/*   */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #212529;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#2f3c42;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+/* Section Headline */
+
+.section-headline h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+  font-family:'IBM Plex Mono', monospace;;
+  color:#212529;
+}
+
+.section-headline h2::after {
+  border: 1px solid #333;
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.section-headline-white h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+  font-family:'IBM Plex Mono', monospace;;
+  color:white;
+}
+
+.section-headline-white h2::after {
+  border: 1px solid #e1e5ee;
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+
+.featured-services .section-headline{
+  padding-top: 30px;
+}
+
+.ready-btn {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  z-index: 222;
+  margin:10px;
+}
+
+.ready-btn:hover {
+  color: #fff;
+  background: #3EC1D5;
+  border: 1px solid #3EC1D5;
+  text-decoration: none;
+}
+
+
+
+.layer-1-3 a.ready-btn {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  z-index: 222;
+}
+
+.layer-1-3 a.ready-btn:hover {
+  color: #fff;
+  background: #3EC1D5;
+  border: 1px solid #3EC1D5;
+  text-decoration: none;
+}
+
+
+
+.element-background-overlay
+{
+background:rgba(0,0,0,0.6)
+}
+
+
+.shadow-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.divider
+{
+	position: relative;
+	height: 3px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	right: 10%;
+	width: 90%;
+	height: 4px;
+	background-image: linear-gradient(to right, transparent, #212529, transparent);
+}
+
+
+.intro-content img {
+  
+    vertical-align:bottom;
+    border:0;
+    
+}
+
+
+
+
+.card{
+border-radius: 25px;
+background: #eff8e2 ;
+}
+
+.featured-services{
+  background:#e1e5ee
+}
+
+.card img{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.delay-1 {
+  animation-delay: .25s;
+  }
+  .delay-2 {
+  animation-delay: .5s;
+  }
+  .delay-3 {
+  animation-delay: .75s;
+  }
+  .delay-4 {
+  animation-delay: 1s;
+  }
+
+
+  /* Services icons */ 
+
+ .icons-services{
+   width:50px;
+   height:50px;
+   text-align: center;
+ }
+
+ .scaling-image {
+  width: 100%;
+  display: inline-block; }
+  .scaling-image:hover .frame {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9); }
+  .scaling-image:hover img, .scaling-image:hover .feature-img-bg {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+    .feature-img-bg {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; }
+      @media (max-width: 991.98px) {
+        .feature-img-bg {
+          height: 400px !important;
+          display: block;
+          margin-bottom: 30px; } }
+
+
+.background1{
+  background:#e1e5ee;
+  
+          }
+
+  .background2{
+    background-color: #272838;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e1e5ee' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    color:white;
+    margin:0px !important;
+    padding-bottom: 70px;
+    padding-top:70px;
+  }
+
+  .box-shadow{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    margin:10px;
+  }
+
+
+
+  .background2 p {
+    color: #e1e5ee;
+  }
+
+
+
+  .companyinfo i{
+     font-size: 50px;
+      margin:20px;
+  }
+
+  .companyinfo p{
+    margin:20px;
+    font-size:18px;
+  }
